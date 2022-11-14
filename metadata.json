@@ -1,0 +1,7 @@
+{
+    "origin": "autoatencion_delivery_channel_api",
+    "clientCode" : "CLI-001",
+    "communicationId": "COM-001",
+    "channel": "EMAIL | SMS",
+    "provider": "SES | ITD"
+}

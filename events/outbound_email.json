@@ -1,0 +1,34 @@
+{
+    "detail-type": "OutBound",
+    "detail": {
+        "metadata": {},
+        "data": {
+            "communicationId": "COM-001",
+            "clientCode": "CLI-001",
+            "providerId": "PROV-001",
+            "processId": "PROC-001",
+            "campaignId": "CAMPAIGN-001",
+            "channel": "EMAIL",
+            "provider": "SES",
+            "email": {
+                "to": {
+                    "email": "example@gmail.com",
+                    "name": "Joe Dam"
+                },
+                "from": {
+                    "email": "example@jordan.cl",
+                    "name": "Admin Jordan"
+                },
+                "subject": "",
+                "attributes": {},
+                "html": {
+                    "raw": "<div> #{name}# </div>",
+                    "base64": ""
+                },
+                "template": {
+                    "code": "TEMP-001"
+                }
+            }
+        }
+    }
+}

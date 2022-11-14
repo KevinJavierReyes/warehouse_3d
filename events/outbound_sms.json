@@ -1,0 +1,28 @@
+{
+    "detail-type": "OutBound",
+    "detail": {
+        "metadata": {},
+        "data": {
+            "communicationId": "COM-001",
+            "clientCode": "CLI-001",
+            "providerId": "PROV-001",
+            "processId": "PROC-001",
+            "campaignId": "CAMPAIGN-001",
+            "channel": "SMS",
+            "provider": "ITD",
+            "sms": {
+                "to": {
+                    "phone": ""
+                },
+                "attributes": {},
+                "message": {
+                    "raw": "",
+                    "base64": ""
+                },
+                "template": {
+                    "code": "TEMP-001"
+                }
+            }
+        }
+    }
+}
